@@ -59,11 +59,11 @@
                                 <div class="form-group mb-4">
                                     <label class="form-control-label">EMAIL</label>
                                     <input type="text" name="email" class="form-control" required>
-                                    @error('email')
+                                    <!-- @error('email')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
-                                    @enderror
+                                    @enderror -->
                                 </div>
                                 <div class="form-group mb-4">
                                     <label class="form-control-label">PASSWORD</label>
